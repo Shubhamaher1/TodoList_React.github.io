@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.main-div {
+  width: 100%;
+
+  min-height: 100vh;
+  background: #060822;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  /* align-items: center; */
+}
+.center_div {
+  width: 45%;
+  height: 80vh;
+  background-color: #f4f4f4;
+  box-shadow: 5px 5px 25px -5px red;
+  border-radius: 15px;
+}
+h1 {
+  color: white;
+  background-color: blueviolet;
+  box-shadow: 5px 5px 15px -5px red;
+  padding: 5px;
+}
+input {
+  text-align: center;
+  height: 30px;
+  top: 10px;
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 20px;
+  font-weight: 400;
+  width: 60%;
+  border-bottom: 2px solid black;
+}
+button {
+  min-height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  color: #d9dae6;
+  background-color: #8566aa;
+  cursor: pointer;
+  font-size: 30px;
+
+  margin-left: 10px;
+  font-weight: 900;
+
+  -webkit-transition: background-color 0.15s linear;
+}
+button:hover {
+  background-color: rgb(47, 214, 122);
+}
+ol {
+  margin-top: 30px;
+}
+ol div {
+  font-size: 13px;
+  font-weight: 600;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+
+  /* display: flex; */
+  text-transform: capitalize;
+}
+.todo_style {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+}
+.edit {
+  background-color: black;
+  border-radius: 10px;
+  width: 20%;
+  min-height: 20px;
+  margin-top: 5px;
+  font-size: 20px;
+}
